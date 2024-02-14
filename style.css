@@ -1,0 +1,50 @@
+.yes{
+background-color: green;
+border: none;
+}
+.background-active{
+    background: url(back.gif);
+}
+.no{
+background-color: red;
+border: none;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button-wrapper{
+    display: flex;
+     width: 100%;
+     height: auto;
+     flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.image, .great{
+    display: none;
+}
+.active{
+    display: block;
+}
+.yes, .no{
+    width: 50px;
+    height: 40px;
+    border-radius: 20%;
+}
+p{
+   
+    font-size: 24px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
